@@ -36,7 +36,7 @@ if($cek > 0){
 		$_SESSION['username'] = $username;
 		$_SESSION['level'] = "user";
 		$_SESSION['user_id'] = $data["id_user"];
-		// alihkan ke halaman dashboard pegawai
+		// alihkan ke halaman dashboard user
 		header("location:halaman_user.php");
 
 	}else{
