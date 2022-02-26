@@ -30,7 +30,7 @@ if($cek > 0){
 		// alihkan ke halaman dashboard admin
 		header("location:halaman_admin.php");
 
-	// cek jika user login sebagai pegawai
+	// cek jika user login sebagai user
 	}else if($data['level']=="user"){
 		// buat session login dan username
 		$_SESSION['username'] = $username;
